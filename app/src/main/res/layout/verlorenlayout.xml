@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp">
+
+    <TextView
+        android:id="@+id/txtLooseText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="62dp"
+        android:text="Schade... leider haben Sie keinen neuen Highscore aufgestellt, versuchen Sie es noch einmal."
+        android:textColor="@color/white"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/txtLooseScore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Erzielter Score: "
+        android:textColor="@color/white"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/txtLooseAteGhosts"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtLooseScore"
+        android:layout_marginTop="3dp"
+        android:text="Gegessene Geister: "
+        android:textColor="@color/white"
+        android:textSize="15dp" />
+
+</RelativeLayout>
